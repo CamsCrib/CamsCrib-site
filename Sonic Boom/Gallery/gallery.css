@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Freeman&display=swap');
+@import url(https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap);
+
+@font-face {
+  font-family: futureFont;
+  src: url(/Fonts/future.ttf);
+}
+@font-face{
+  font-family: robo;
+  src: url(/Fonts/Robot.ttf);
+}
+@font-face{
+  font-family: bigrobo;
+  src: url(/Fonts/GiantRobots.ttf);
+}
+@font-face{
+  font-family: monte;
+  src: url(/Fonts/Montserrat.ttf);
+}
+
+#img-gal{
+  height:360px;
+}
+
+.gallery h1 {
+  font-family: futureFont;
+  color: #a8abff;
+  text-shadow: 5px 5px #2c2f72;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+}
+
+.gallery h3 {
+  color: white;
+  font-family: monte;
+  text-shadow: 2px 2px #001eff;
+}
+
+body {
+  background-color: black;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-end;
+  padding: 25px;
+  font-family: 'Freeman', monospace;
+  top: -100px;
+}
+
+.container div {
+  margin: 20px;
+  padding: 10px;
+  width: 100px;
+  font-size: 21px;
+  text-align: center;
+  line-height: 75px;
+}
+
+.container div a {
+  text-decoration: none;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.container div a:hover {
+  background: -webkit-linear-gradient(#eee, #ff0000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+

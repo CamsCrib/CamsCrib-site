@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Freeman&display=swap');
+@import url(https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap);
+
+@font-face {
+  font-family: futureFont;
+  src: url(/Fonts/future.ttf);
+}
+@font-face{
+  font-family: robo;
+  src: url(/Fonts/Robot.ttf);
+}
+
+@font-face{
+  font-family: bigrobo;
+  src: url(/Fonts/GiantRobots.ttf);
+}
+
+@font-face{
+  font-family: monte;
+  src: url(/Fonts/Montserrat.ttf);
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-image: url("/Education/EducationImages/grid.jpg");
+  font-family: 'Freeman', monospace;
+  background-blend-mode: darken;
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+
+}
+
+.container {
+  display: flex;
+  justify-content: flex-end;
+  padding: 25px;
+  font-family: 'Freeman', monospace;
+  top: -100px;
+}
+
+.container div {
+  margin: 20px;
+  padding: 10px;
+  width: 100px;
+  font-size: 21px;
+  text-align: center;
+  line-height: 75px;
+}
+
+.container div a {
+  text-decoration: none;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.container div a:hover {
+  background: -webkit-linear-gradient(#eee, #ff0000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.mainheader h1 {
+  font-family: futureFont;
+  display: flex;
+  justify-content: center;
+  color: #ff1f1f;
+  text-shadow: 3px 3px #3d0000;
+}
+
+.mainheader h2 {
+  font-family: monte;
+  display: flex;
+  justify-content: center;
+  color: pink;
+  text-shadow: 3px 3px #af606d;
+}
+
+.elec p{
+  font-family: monte;
+  font-size: 20px;
+  color: #c2c2c2;
+  text-shadow: 3px 3px #828282;
+}
+
+.elec ul {
+  padding: 20px;
+}
+
+.elec ul li {
+  padding: 30px;
+  list-style-type: none;
+}
+
+.video1 h2{
+  color: white;
+}
+
+#mech {
+  color: #ff5c5c;
+  position: relative;
+  right: -800px;
+}
+
+.SimpleLED {
+  font-family: bigRobo;
+  position: relative;
+  top: -1850px;
+  left: -300px;
+}
+
+.LightDependent {
+  font-family: bigRobo;
+  position: relative;
+  top: -1730px;
+  left: -300px;
+}
+
+.TouchSensor {
+  font-family: bigRobo;
+  position: relative;
+  top: -1640px;
+  left: -300px;
+}
+
+.ButtonLED1 {
+  font-family: bigRobo;
+  position: relative;
+  top: -1630px;
+  left: -300px;
+}
+
+.ButtonLED2 {
+  font-family: bigRobo;
+  position: relative;
+  top: -1490px;
+  left: -300px;
+}
+
+.ButtonLED3 {
+  font-family: bigRobo;
+  position: relative;
+  top: -1360px;
+  left: -300px;
+}
+
+.Pa {
+  color: white;
+  padding: 0px;
+  width: 500px;
+}
+
+.mathcourses {
+font-size: 30px;
+position: relative;
+top: -1115px; 
+left: -670px;
+text-decoration: none;
+  
+}
+
+.mathcourses h2 {
+  color: #ff5c5c
+}
+
+.mathcourses p {
+  color: #ffffff
+}
+
+.somecoding {
+font-size: 30px;
+color: #ff5c5c;
+position: relative;
+left: -700px;
+top: -1100px;
+}
+
+.somecoding ul {
+  list-style-type: none;
+}
+
+.somecoding p {
+  color: #ffffff;
+}
+
+.coding {
+  border-radius: 20px;
+}
+
+.code1 {
+  width: 500px;
+  height: 250px;
+  border-radius: 20px;
+}
+
+.code2 {
+  width: 500px;
+  height: 250px;
+  border-radius: 20px;
+}
+
+.code3 {
+  width: 500px;
+  height: 250px;
+  border-radius: 20px;
+}
+
